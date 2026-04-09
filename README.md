@@ -92,7 +92,7 @@ pip install -r requirements.txt
 
 ## Data preparation
 
-### Option A – Use your own QA dataset
+###  – Use your own QA dataset
 
 Your raw JSON must contain per-sample:
 - `question` (str), `answers` (list[str])
@@ -107,13 +107,12 @@ python scripts/build_noise_data.py \
     --output_path data/train.json \
     --split       train
 ```
+A3F ：
 
-### Option B – Use the RAG-Bench benchmark
-
-Download from the link in your institution's data-access agreement, then run
-the noise-construction script above.
-
----
+| Model          | Hugging Face ID |
+|----------------|----------------|
+| LLaMA-3-7B     | `meta-llama/Meta-Llama-3-8B` |
+| DeepSeek-R1-7B | `deepseek-ai/DeepSeek-R1-Distill-Llama-8B` |
 
 ## Training
 
@@ -182,12 +181,12 @@ python evaluate.py --w_noisy_retrieval --noise_ratio 0.4 \
 If you find this work useful, please cite:
 
 ```bibtex
-@article{a3f2025,
+@article{a3f2026,
   title   = {Learning Beneficial Noise Distributions to Enhance the
              Inference Ability of Large Language Models},
-  author  = {[Authors]},
+  author  = {[Jiayi Qu]},
   journal = {[Venue]},
-  year    = {2025}
+  year    = {2026}
 }
 ```
 
