@@ -164,18 +164,6 @@ python evaluate.py --w_noisy_retrieval --noise_ratio 0.4 \
 
 ---
 
-## Main results (Table 3 in the paper)
-
-| Model | Dataset | EM | F1 |
-|-------|---------|----|----|
-| A3F (LLaMA-3-7B) | NQ | **46.8** | **58.5** |
-| A3F (LLaMA-3-7B) | TriviaQA | **50.2** | 59.8 |
-| A3F (LLaMA-3-7B) | WebQuestions | **44.5** | **55.2** |
-| A3F (DeepSeek-R1-7B) | NQ | **47.5** | **59.2** |
-| A3F (DeepSeek-R1-7B) | TriviaQA | 48.0 | **64.5** |
-
----
-
 ## Citation
 
 If you find this work useful, please cite:
