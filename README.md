@@ -83,7 +83,7 @@ A3F/
 ## Setup
 
 ```bash
-git clone https://github.com/your-org/A3F.git
+git clone https://github.com/JY-accept/A3F-main
 cd A3F
 pip install -r requirements.txt
 ```
